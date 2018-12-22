@@ -17,7 +17,7 @@
         "title": "Web Container 2.0"
       },
       "background": {
-        "type": "html",
+        "type": "php",
         "url": "http://www.freestudioegypt.com/"
       }
     }
