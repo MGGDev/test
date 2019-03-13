@@ -1,0 +1,26 @@
+
+{
+  "$jason": {
+    "head": {
+      "actions": {
+        "$load": {
+          "type": "$agent.request",
+          "options": {
+            "id": "$webcontainer",
+            "method": "login",
+            "params": ["alice", "1234"]
+          }
+        }
+      }
+    },
+    "body": {
+      "background": {
+      "type": "html",
+      "url": "http://www.uncoversummit.com/",
+      "action": {
+        "type": "$default"
+      }
+    }
+    }
+  }
+}
